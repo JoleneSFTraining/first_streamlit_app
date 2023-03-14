@@ -33,7 +33,7 @@ else:
   streamlit.dataframe(fruityvice_normalized)
   
   except URLError as e:
-      streamlit.error(e)
+      streamlit.error()
 
 #New Section to display fruityvice api response
 #import requests
